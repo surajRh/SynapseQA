@@ -16,16 +16,16 @@ public class Loginpage {
         this.driver=driver;
     }
 
-    private By emailFeild= By.xpath("//input[@data-qa='login-email']");
-    private By passwordFeild= By.xpath("//input[@data-qa='login-password']");
+    private By emailField= By.xpath("//input[@data-qa='login-email']");
+    private By passwordField= By.xpath("//input[@data-qa='login-password']");
     private By loginbutton= By.xpath("//button[@data-qa='login-button']");
 
     public void enterEmail(String email){
-        driver.findElement(emailFeild).sendKeys(email);
+        driver.findElement(emailField).sendKeys(email);
     }
 
     public void enterPassword(String password){
-        driver.findElement(passwordFeild).sendKeys(password);
+        driver.findElement(passwordField).sendKeys(password);
     }
 
     public void clickLoginButton(){

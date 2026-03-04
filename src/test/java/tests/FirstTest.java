@@ -10,7 +10,6 @@ import utils.ConfigReader;
 
 import java.util.List;
 
-
 public class FirstTest extends BaseTest {
 
     @BeforeClass
@@ -20,26 +19,26 @@ public class FirstTest extends BaseTest {
 
     @Test(priority = 1)
     public void loginToUIAutomation() {
-
-        Loginpage loginpage= new Loginpage(driver);
+        Loginpage loginpage = new Loginpage(getDriver());
         loginpage.login("cua@example.com","test123");
     }
 
     @Test(priority = 2)
     public void verifyPageTitle() {
-        Loginpage loginpage= new Loginpage(driver);
+        Loginpage loginpage = new Loginpage(getDriver());
         loginpage.verifyPageTitleHeading();
     }
 
     @Test(priority = 3)
     public void validateTestPage() {
-        Loginpage loginpage= new Loginpage(driver);
+        Loginpage loginpage = new Loginpage(getDriver());
         loginpage.validateTotalLinksinTestPage();
     }
-        @AfterClass
-        public void end () {
-            tearDown();
-        }
 
+    @AfterClass
+    public void end () {
+        tearDown();
     }
+}
+
 

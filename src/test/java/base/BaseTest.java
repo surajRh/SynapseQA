@@ -8,29 +8,36 @@ import utils.ConfigReader;
 import java.time.Duration;
 
 public class BaseTest {
-    protected WebDriver driver;
 
-    public void setup(){
+    protected static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-        String browser= ConfigReader.getProperty("browser");
+    public void setup() {
 
-        if(browser.equalsIgnoreCase("chrome")) {
+        String browser = ConfigReader.getProperty("browser");
+
+        if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver=new ChromeDriver();
-        }
-        else{
-            throw new RuntimeException("Browser not suported" +browser);
+            driver.set(new ChromeDriver());   // ✅ important
+        } else {
+            throw new RuntimeException("Browser not supported: " + browser);
         }
 
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(ConfigReader.getProperty("timeout"))));
-        driver.get(ConfigReader.getProperty("url"));
+        getDriver().manage().window().maximize();
+        getDriver().manage().timeouts()
+                .implicitlyWait(Duration.ofSeconds(
+                        Integer.parseInt(ConfigReader.getProperty("timeout"))));
+
+        getDriver().get(ConfigReader.getProperty("url"));
     }
 
-    public void tearDown(){
-        if(driver!=null)
-        {
-            driver.quit();
+    public static WebDriver getDriver() {
+        return driver.get();
+    }
+
+    public void tearDown() {
+        if (getDriver() != null) {
+            getDriver().quit();
+            driver.remove();   // ✅ important for parallel
         }
     }
 }
