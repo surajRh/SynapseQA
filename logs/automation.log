@@ -1,0 +1,54 @@
+2026-03-10 09:37:27 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:37:31 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:37:35 INFO  Loginpage:28 - Entering email
+2026-03-10 09:37:36 INFO  Loginpage:33 - Entering password
+2026-03-10 09:37:36 INFO  Loginpage:38 - Click login button
+2026-03-10 09:37:36 INFO  Loginpage:50 - Page title isAutomation Exercise - Signup / Login
+2026-03-10 09:37:36 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:37:36 INFO  Loginpage:56 - Navigating to Next page
+2026-03-10 09:40:18 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:40:21 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:40:24 INFO  Loginpage:28 - Entering email
+2026-03-10 09:40:24 INFO  Loginpage:33 - Entering password
+2026-03-10 09:40:24 INFO  Loginpage:38 - Click login button
+2026-03-10 09:40:24 INFO  Loginpage:50 - Page title isAutomation Exercise - Signup / Login
+2026-03-10 09:40:24 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:40:24 INFO  Loginpage:56 - Navigating to Next page
+2026-03-10 09:45:56 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:45:58 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:46:00 INFO  Loginpage:28 - Entering email
+2026-03-10 09:46:00 INFO  Loginpage:33 - Entering password
+2026-03-10 09:46:00 INFO  Loginpage:38 - Click login button
+2026-03-10 09:46:01 INFO  Loginpage:50 - Page title isAutomation Exercise - Signup / Login
+2026-03-10 09:46:01 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:46:01 INFO  Loginpage:56 - Navigating to Next page
+2026-03-10 09:46:42 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:46:44 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:46:47 INFO  Loginpage:28 - Entering email
+2026-03-10 09:46:47 INFO  Loginpage:33 - Entering password
+2026-03-10 09:46:48 INFO  Loginpage:38 - Click login button
+2026-03-10 09:46:48 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:46:49 INFO  Loginpage:56 - Navigating to Next page
+2026-03-10 09:54:42 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:54:44 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:54:46 INFO  Loginpage:28 - Entering email
+2026-03-10 09:54:47 INFO  Loginpage:33 - Entering password
+2026-03-10 09:54:47 INFO  Loginpage:38 - Click login button
+2026-03-10 09:54:47 INFO  Loginpage:50 - Page title isAutomation Exercise - Signup / Login
+2026-03-10 09:54:47 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:54:48 INFO  Loginpage:56 - Navigating to Next page
+2026-03-10 09:55:34 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:55:36 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:55:39 INFO  Loginpage:28 - Entering email
+2026-03-10 09:55:39 INFO  Loginpage:33 - Entering password
+2026-03-10 09:55:39 INFO  Loginpage:38 - Click login button
+2026-03-10 09:55:40 INFO  Loginpage:50 - Page title isAutomation Exercise - Signup / Login
+2026-03-10 09:55:40 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:58:28 INFO  BaseTest:19 - Launching browserchrome
+2026-03-10 09:58:30 INFO  BaseTest:33 - Opening urlhttps://automationexercise.com/login
+2026-03-10 09:58:32 INFO  Loginpage:28 - Entering email
+2026-03-10 09:58:32 INFO  Loginpage:33 - Entering password
+2026-03-10 09:58:32 INFO  Loginpage:38 - Click login button
+2026-03-10 09:58:33 INFO  Loginpage:50 - Page title isAutomation Exercise - Signup / Login
+2026-03-10 09:58:33 INFO  Loginpage:52 - Page title is read successfully
+2026-03-10 09:58:38 INFO  Loginpage:60 - Total links: 27
