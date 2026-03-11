@@ -2,3 +2,4 @@
 reports/
 test-output/
 target/
+*.log
